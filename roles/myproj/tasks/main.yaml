@@ -1,0 +1,8 @@
+- name:    --------copy modual -------
+  copy:
+    src: myfile.txt
+    dest: /home/
+    owner: root
+    group: root
+    mode: 0644
+  tags: copy_mod
